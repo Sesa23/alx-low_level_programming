@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - afunction that concatenates two strings.
+ * _strncat - a function that concatenates two strings.
  * 
- * @dest: pointer to destnation input
+ * @dest: pointer to destination input
  * @src: pointer to source input
  * @n: most number of bytes from @src
  *
@@ -11,7 +11,7 @@
 */
 
 
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
         int c, i;
 
